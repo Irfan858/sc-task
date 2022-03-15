@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survei Pembelajaran</title>
+</head>
+<body>
+    <header>
+        <h1>Survei Pembelajaran Materi</h1>
+    </header>
+
+    <main>
+        <div id="description">
+            <p>Survei ini bertujuan untuk memetakan kepuasan dari pelaksanaan pembelajaran materi kepada mahasiswa yang mengikuti Materi Pemrograman Web Dasar</p> 
+        </div>
+        <div id="survey">
+            <form action="success.html">
+                <div id="survey-nama">
+                    <label for="name">Nama Mahasiswa</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Masukkan Nama Anda">
+                    <br><br>
+                </div>
+                <div id="survey-nim">
+                    <label for="nim">NIM</label>
+                    <br>
+                    <input type="text" name="nim" id="nim" placeholder="Masukkan NIM Anda">
+                    <br><br>
+                </div>
+                <div id="survey-prodi">
+                    <label for="nim">Prodi</label>
+                    <br>
+                    <input type="text" name="prodi" id="prodi" placeholder="Masukkan Prodi Anda">
+                    <br><br>
+                </div>
+                <div id="survey-semester">
+                    <label for="nim">Semester</label>
+                    <br>
+                    <select name="semester" id="semester">
+                        <option value="#">Pilih Semester</option>
+                        <option value="">2</option>
+                        <option value="">4</option>
+                        <option value="">6</option>
+                        <option value="">8</option>
+                    </select>
+                    <br><br>
+                </div>
+                <div id="survey-puas">
+                    <label for="nim">Tingkat Kepuasan</label>
+                    <br>
+                    <input type="radio" name="puas" id="puas" value="puas">
+                    <label for="puas">Puas</label>
+                    <input type="radio" name="puas" id="kurang-puas" value="kurang-puas">
+                    <label for="puas">Cukup</label>
+                    <input type="radio" name="puas" id="puas" value="puas">
+                    <label for="puas">Tidak Puas</label>
+                    <br><br>
+                </div>
+                <div id="survey-saran">
+                    <label for="nim">Kritik Dan Saran</label>
+                    <br>
+                    <textarea name="saran" id="" cols="30" rows="10" placeholder="Masukkan Kritik Dan Saran"></textarea>
+                    <br><br>
+                </div>
+                <div id="survey-submit">
+                    <input type="submit" value="Kirimkan">
+                </div>
+            </form>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <center>Copyright &copy Irfan Kurniawan 2022</center>
+    </footer>
+</body>
+</html>
