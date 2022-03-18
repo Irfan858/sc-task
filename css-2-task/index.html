@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Survey Pembelajaran</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body class="d-flex justify-content-center" style="background-color: rgba(149, 239, 255, 0.596);">
+
+    <div class="container mx-2 my-3 justify-content-center">
+        <div class="bg-white p-3 mb-3 border-top rounded border-primary border-5">
+            <h2>Survei Pembelajaran Materi</h2>
+            <p class="text-secondary">Survei ini bertujuan untuk memetakan kepuasan dari pelaksanaan pembelajaran materi kepada mahasiswa yang mengikuti Materi Pemrograman Web Dasar</p> 
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="name" class="form-label">Nama Mahasiswa</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Masukkan Nama Anda">
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="nim" class="form-label">NIM</label>
+            <input type="text" class="form-control" name="nim" id="nim" placeholder="Masukkan NIM Anda">
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="prodi" class="form-label">Prodi</label>
+            <input type="text" class="form-control" name="prodi" id="prodi" placeholder="Masukkan Prodi Anda">
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="prodi" class="form-label">Semester</label>
+            <select name="semester" id="semester" class="form-select">
+                <option value="#">Pilih Semester</option>
+                <option value="">2</option>
+                <option value="">4</option>
+                <option value="">6</option>
+                <option value="">8</option>
+            </select>
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="prodi" class="form-label">Tingkat Kepuasan</label>
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" name="puas" id="puas" value="puas">
+                <label for="puas" class="form-check-label">Puas</label>
+            </div>
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" name="puas" id="puas" value="puas">
+                <label for="puas" class="form-check-label">Kurang Puas</label>
+            </div>
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" name="puas" id="puas" value="puas">
+                <label for="puas" class="form-check-label">Tidak Puas</label>
+            </div>  
+        </div>
+
+        <div class="bg-white p-3 mb-3 rounded">
+            <label for="prodi" class="form-label">Kritik Dan Saran</label>
+            <textarea name="kritik" class="form-control" id="" placeholder="Masukkan Kritik Dan Saran Anda" style="height: 100px;"></textarea>
+        </div>
+        <input type="button" value="Kirimkan" class="btn btn-primary" style="width: 100px;">
+
+        <div class="text-center text-black mt-5">
+            <p>Copyright &copy Irfan Kurniawan 2022</p>
+        </div>
+    </div>
+      
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
