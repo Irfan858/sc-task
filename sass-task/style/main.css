@@ -1,0 +1,46 @@
+.sign-btn {
+  background-color: #faae4a;
+  color: white;
+}
+.sign-btn:hover {
+  background-color: #fc8f00;
+  color: white;
+}
+
+.cart-btn {
+  color: white;
+  border: solid 2px #faae4a;
+}
+.cart-btn:hover {
+  background-color: #fc8f00;
+  color: white;
+}
+
+.buy-btn {
+  color: white;
+  background-color: #53fc5b;
+}
+.buy-btn:hover {
+  background-color: #009c08;
+  color: white;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
+}
+
+.about-content {
+  text-align: justify;
+}
+
+.footer-list {
+  list-style: none;
+}
+.footer-list a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */

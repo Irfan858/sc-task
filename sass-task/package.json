@@ -1,0 +1,11 @@
+{
+  "name": "sass-task",
+  "version": "1.0.0",
+  "description": "make customize landing page with sass and bootstrap",
+  "main": "index.js",
+  "author": "irfan kurniawan",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
