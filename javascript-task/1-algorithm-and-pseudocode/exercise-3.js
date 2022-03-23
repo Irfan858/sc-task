@@ -7,8 +7,10 @@
     
     ALGORITMA
     read num
-    IF(num MOD 2 == 0) THEN
-        OUTPUT "Bilangan Genap"
-    ELSE
-        OUTPUT "Bilangan Ganjil"
+    FOR i = 0 TO 10
+        WHILE i = i + 1
+        IF i MOD 2 = 0 THEN
+            i + num
+        ENDWHILE
+    ENDFOR
 ```
