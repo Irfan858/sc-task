@@ -24,9 +24,12 @@ for(let i = 1; i <= counter; i++) {
     {
         console.log(`${i} adalah kelipatan 5`);
     }
-    else
+    else if(i % 3 == 0)
     {
         console.log(`${i} adalah kelipatan 3`);
     }
-    console.log(i);
+    else 
+    {
+        console.log(i);
+    }
 }
